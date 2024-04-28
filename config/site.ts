@@ -1,7 +1,7 @@
 import { SiteConfig } from "types"
 
 export const siteConfig: SiteConfig = {
-  name: "Function03 Labs",
+  name: "Function03",
   description:
     "Function03 Labs is a decentralized public goods lab building web3 tools and infrastructure.",
   url: "https://www.fn03.xyz/",

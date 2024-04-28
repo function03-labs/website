@@ -8,6 +8,8 @@ import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 
 import { LayoutWrapper } from "@/components/layout/layout-wrapper"
+import { SiteFooter } from "@/components/layout/site-footer"
+import { SiteHeader } from "@/components/layout/site-header"
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -89,6 +91,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
 }
 
+interface AppLayoutProps {
+  children: React.ReactNode
+}
+
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -100,7 +106,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
           fontHeading.variable
         )}
       >
-        <LayoutWrapper>{children}</LayoutWrapper>
+        <LayoutWrapper>
+          <SiteHeader />
+          {children} <SiteFooter />
+        </LayoutWrapper>
       </body>
     </html>
   )

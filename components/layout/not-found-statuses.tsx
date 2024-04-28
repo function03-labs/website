@@ -2,14 +2,10 @@
 
 import { useEffect, useRef, useState } from "react"
 import type { Status } from "@/types"
-import { useTranslations } from "next-intl"
 
-import { getNotFoundStatus } from "@/config/consts"
+import { notFoundStatus as data } from "@/config/consts"
 
 export function NotFoundStatuses() {
-  const t = useTranslations("app.components.layout.not-found-statuses")
-  const data = getNotFoundStatus(t)
-
   const ref = useRef(false)
   const [statuses, setStatuses] = useState<Status[]>([])
   const scrollRef = useRef<HTMLUListElement | null>(null)
@@ -48,7 +44,7 @@ export function NotFoundStatuses() {
 
       ref.current = true
     }
-  }, [data])
+  }, [])
 
   return (
     <ul
