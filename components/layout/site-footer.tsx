@@ -27,7 +27,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             </Link>
             . Hosted on{" "}
             <Link
-              href="https://docs-ipfs-tech.ipns.dweb.link/"
+              href="https://vercel.com/"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
