@@ -3,7 +3,7 @@
 [![fn03.xyz](https://img.shields.io/badge/fn03-.xyz-f02e65?style=flat-square)](https://fn03.xyz)
 [![Twitter Account](https://img.shields.io/twitter/follow/function03labs?color=00acee&label=twitter&style=flat-square)](https://twitter.com/function03labs)
 
-![Cover banner](/public/og.png)
+![Cover banner](/public/opengraph/web.png)
 
 The Function03 Website repo features the main Function03 website.
 
