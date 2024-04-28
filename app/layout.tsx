@@ -107,8 +107,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       >
         <LayoutWrapper>
-          <SiteHeader />
-          {children} <SiteFooter />
+          {/*           <SiteHeader />
+           */}{" "}
+          {children}
+          <SiteFooter />
         </LayoutWrapper>
       </body>
     </html>
