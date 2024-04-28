@@ -21,4 +21,4 @@ pnpm run dev
 
 ## License
 
-Function03 website © 2024 by Appwrite is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+Function03 website © 2024 by Function03 Labs is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
