@@ -30,7 +30,7 @@ export function Hero() {
         </div>
 
         <Globe className="top-28" />
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-white to-transparent dark:from-neutral-900" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-white to-transparent dark:from-black" />
       </div>
       <RetroGrid />
     </div>

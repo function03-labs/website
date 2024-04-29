@@ -2,10 +2,8 @@ import Link from "next/link"
 
 import { trustedBy } from "@/config/consts"
 
-
 import { Marquee } from "@/components/ui/marque"
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect"
-
 import { Hero } from "@/components/hero"
 
 export default function Home() {
@@ -26,8 +24,8 @@ export default function Home() {
               </Link>
             ))}
           </Marquee>
-          <div className="dark:from-background pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white/50"></div>
-          <div className="dark:from-background pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white/50"></div>
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-black"></div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-black"></div>
         </div>
       </div>
     </main>
