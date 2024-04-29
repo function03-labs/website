@@ -9,7 +9,6 @@ import { cn } from "@/lib/utils"
 
 import { LayoutWrapper } from "@/components/layout/layout-wrapper"
 import { SiteFooter } from "@/components/layout/site-footer"
-import { SiteHeader } from "@/components/layout/site-header"
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -107,8 +106,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       >
         <LayoutWrapper>
-          {/*           <SiteHeader />
-           */}{" "}
           {children}
           <SiteFooter />
         </LayoutWrapper>
