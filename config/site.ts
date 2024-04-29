@@ -9,6 +9,8 @@ export const siteConfig: SiteConfig = {
   links: {
     twitter: "https://twitter.com/function03labs",
     github: "https://github.com/function03-labs",
+    linkedin: "https://www.linkedin.com/company/function03-labs/",
+    email: "support@fn03.xyz",
   },
 }
 

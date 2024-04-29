@@ -2,8 +2,10 @@ import Link from "next/link"
 
 import { trustedBy } from "@/config/consts"
 
+
 import { Marquee } from "@/components/ui/marque"
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect"
+
 import { Hero } from "@/components/hero"
 
 export default function Home() {

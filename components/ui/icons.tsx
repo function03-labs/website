@@ -29,6 +29,7 @@ import {
   Search,
   Settings,
   SunMedium,
+  Linkedin,
   Trash,
   UserCircleIcon,
   UserCogIcon,
@@ -80,4 +81,5 @@ export const Icons = {
   teacher: UserCogIcon,
   monitor: Monitor,
   menu: Menu,
+  linkedin: Linkedin,
 }
