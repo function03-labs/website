@@ -1,8 +1,7 @@
 import "@/styles/globals.css"
 
 import type { Metadata, Viewport } from "next"
-import { Inter as FontSans } from "next/font/google"
-import localFont from "next/font/local"
+import { Work_Sans } from "next/font/google"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -10,14 +9,9 @@ import { cn } from "@/lib/utils"
 import { LayoutWrapper } from "@/components/layout/layout-wrapper"
 import { SiteFooter } from "@/components/layout/site-footer"
 
-const fontSans = FontSans({
+const font = Work_Sans({
   subsets: ["latin"],
-  variable: "--font-sans",
-})
-
-const fontHeading = localFont({
-  src: "../assets/fonts/CalSans-SemiBold.woff2",
-  variable: "--font-heading",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 })
 
 interface RootLayoutProps {
@@ -101,8 +95,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={cn(
           "min-h-screen bg-white font-sans antialiased dark:bg-black",
-          fontSans.variable,
-          fontHeading.variable
+          font.style
         )}
       >
         <LayoutWrapper>
