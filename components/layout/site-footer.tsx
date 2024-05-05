@@ -3,9 +3,9 @@ import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 
+import { ModeToggle } from "@/components/mode-toggle"
 import { Dock, DockIcon } from "@/components/ui/dock"
 import { Icons } from "@/components/ui/icons"
-import { ModeToggle } from "@/components/mode-toggle"
 
 export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
   return (

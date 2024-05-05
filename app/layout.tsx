@@ -1,7 +1,7 @@
 import "@/styles/globals.css"
 
 import type { Metadata, Viewport } from "next"
-import { Noto_Serif } from "next/font/google"
+import { Montserrat } from "next/font/google"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -9,9 +9,9 @@ import { cn } from "@/lib/utils"
 import { LayoutWrapper } from "@/components/layout/layout-wrapper"
 import { SiteFooter } from "@/components/layout/site-footer"
 
-const font = Noto_Serif({
-  subsets: ["latin"],
+const font = Montserrat({
   display: "swap",
+  subsets: ["latin"],
 })
 
 interface RootLayoutProps {
@@ -90,12 +90,12 @@ interface AppLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <head />
       <body
         className={cn(
-          "min-h-screen bg-white font-sans antialiased dark:bg-black",
-          font.style
+          font.className,
+          "min-h-screen bg-white antialiased dark:bg-black"
         )}
       >
         <LayoutWrapper>

@@ -23,7 +23,7 @@ export function Hero() {
           <h2 className="-mt-8 text-9xl font-bold text-neutral-900 dark:text-neutral-100">
             <TypewriterEffectSmooth words={words} />
           </h2>
-          <p className="z-50 mx-auto max-w-md text-center text-base font-normal text-neutral-700 md:text-lg dark:text-neutral-200">
+          <p className="z-50 mx-auto -mt-5 max-w-lg text-center text-base font-medium text-neutral-700 md:text-lg dark:text-neutral-200">
             Committed to open source and public goods. Leading the way in web3
             exploration, one data point at a time.
           </p>
