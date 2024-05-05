@@ -1,7 +1,7 @@
 import "@/styles/globals.css"
 
 import type { Metadata, Viewport } from "next"
-import { Work_Sans } from "next/font/google"
+import { Noto_Serif } from "next/font/google"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils"
 import { LayoutWrapper } from "@/components/layout/layout-wrapper"
 import { SiteFooter } from "@/components/layout/site-footer"
 
-const font = Work_Sans({
+const font = Noto_Serif({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 })
