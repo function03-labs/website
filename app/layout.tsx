@@ -95,7 +95,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={cn(
           font.className,
-          "min-h-screen bg-white antialiased dark:bg-black"
+          "min-h-screen overflow-x-hidden bg-white antialiased dark:bg-black"
         )}
       >
         <LayoutWrapper>
